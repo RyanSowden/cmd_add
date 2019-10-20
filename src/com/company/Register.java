@@ -72,11 +72,6 @@ public class Register {
                 int i = preparedStatement.executeUpdate();
                 System.out.println("User successfully created");
             }
-            /*
-            * Things to do
-            *
-            * 
-            * */
 
 //throwing error
 
