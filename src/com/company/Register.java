@@ -11,9 +11,7 @@ public class Register {
     public static Scanner pswdInput = new Scanner(System.in);
     public static Scanner pswdConfirm = new Scanner(System.in);
 
-
-
-    public static void main(String[] args) {
+    static void registerUser() {
 
 
         Connection c = null;
@@ -80,6 +78,10 @@ public class Register {
             System.exit(0);
         }
 
+    }
+
+    public static void main(String[] args) {
+      registerUser();
     }
 
 }

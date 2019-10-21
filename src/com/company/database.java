@@ -19,10 +19,10 @@ public class database {
                     "Password TEXT NOT NULL)";
 
                     //"CREATE TABLE IF NOT EXISTS contacts " +
-                    //"(ID INT PRIMARY KEY NOT NULL," +
+                    //"(ID INT PRIMARY KEY ," +
                     //"Name TEXT NOT NULL," +
                     //"Phone INT NOT NULL," +
-                    //"Email TEXT NOT NULL)";
+                    //"Email TEXT )";
 
             stmt.executeUpdate(sql);
             stmt.close();

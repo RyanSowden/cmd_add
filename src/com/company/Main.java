@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main{
 
-        public static void main(String[] args) {
+        static void welcome(){
             
             System.out.println("Welcome to cmdadd, please select from the below options:");
             System.out.println("1.Login");
@@ -15,19 +15,25 @@ public class Main{
 
             if(answer.equals("1")) {
 
+                login.userLogin();
+
+
             }
 
             else if(answer.equals("2")){
-                System.out.println("You chose 2");
+                Register.registerUser();
             } else {
                 System.out.println("Invalid Choice");
+                welcome();
             }
 
 
 
         }
 
-
+    public static void main(String[] args) {
+        welcome();
+    }
 
 }
 
